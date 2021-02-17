@@ -1,22 +1,19 @@
 /*----------------------------------------------------------------------------------------------------------------------
-
+    Point sınıfı ve test kodu
 ----------------------------------------------------------------------------------------------------------------------*/
 #include <iostream>
-
-constexpr int factorial(int n)
-{
-    return n <= 1 ? 1 : n * factorial(n - 1);
-}
+#include "Point.hpp"
 
 int main()
 {
-    int n;
+    Point p;
 
-    std::cout << "Bir sayi giriniz:";
-    std::cin >> n;
+    p.x = 10;
+    p.y = -40;
 
-    std::cout << factorial(6) << '\n';
-    std::cout << factorial(n) << '\n'; //**
+    p.display();
+    p.offset(20);
+    p.display();
 
     return 0;
 }

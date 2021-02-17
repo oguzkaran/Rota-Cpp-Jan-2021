@@ -127,6 +127,60 @@ sample\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\build
 .PHONY : sample\fast
 
+Device.obj: Device.cpp.obj
+
+.PHONY : Device.obj
+
+# target to build an object file
+Device.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\Device.cpp.obj
+.PHONY : Device.cpp.obj
+
+Device.i: Device.cpp.i
+
+.PHONY : Device.i
+
+# target to preprocess a source file
+Device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\Device.cpp.i
+.PHONY : Device.cpp.i
+
+Device.s: Device.cpp.s
+
+.PHONY : Device.s
+
+# target to generate assembly for a file
+Device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\Device.cpp.s
+.PHONY : Device.cpp.s
+
+Point.obj: Point.cpp.obj
+
+.PHONY : Point.obj
+
+# target to build an object file
+Point.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\Point.cpp.obj
+.PHONY : Point.cpp.obj
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\Point.cpp.s
+.PHONY : Point.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -154,6 +208,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+utility.obj: utility.cpp.obj
+
+.PHONY : utility.obj
+
+# target to build an object file
+utility.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\utility.cpp.obj
+.PHONY : utility.cpp.obj
+
+utility.i: utility.cpp.i
+
+.PHONY : utility.i
+
+# target to preprocess a source file
+utility.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\utility.cpp.i
+.PHONY : utility.cpp.i
+
+utility.s: utility.cpp.s
+
+.PHONY : utility.s
+
+# target to generate assembly for a file
+utility.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sample.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\sample.dir\utility.cpp.s
+.PHONY : utility.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -163,9 +244,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... sample
+	@echo ... Device.obj
+	@echo ... Device.i
+	@echo ... Device.s
+	@echo ... Point.obj
+	@echo ... Point.i
+	@echo ... Point.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... utility.obj
+	@echo ... utility.i
+	@echo ... utility.s
 .PHONY : help
 
 

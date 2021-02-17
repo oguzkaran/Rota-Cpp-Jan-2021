@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/Device.cpp" "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/cmake-build-debug/CMakeFiles/sample.dir/Device.cpp.obj"
+  "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/Point.cpp" "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/cmake-build-debug/CMakeFiles/sample.dir/Point.cpp.obj"
   "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/main.cpp" "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/cmake-build-debug/CMakeFiles/sample.dir/main.cpp.obj"
+  "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/utility.cpp" "C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/cmake-build-debug/CMakeFiles/sample.dir/utility.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

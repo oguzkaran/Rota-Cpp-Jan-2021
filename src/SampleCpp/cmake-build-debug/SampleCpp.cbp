@@ -84,13 +84,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/Device.cpp">
+			<Option target="sample"/>
+		</Unit>
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/Device.hpp">
+			<Option target="sample"/>
+		</Unit>
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/Point.cpp">
+			<Option target="sample"/>
+		</Unit>
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/Point.hpp">
+			<Option target="sample"/>
+		</Unit>
 		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/main.cpp">
 			<Option target="sample"/>
 		</Unit>
-		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/screen.hpp">
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/utility.cpp">
 			<Option target="sample"/>
 		</Unit>
-		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/traffic.hpp">
+		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/utility.hpp">
 			<Option target="sample"/>
 		</Unit>
 		<Unit filename="C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleCpp/CMakeLists.txt">

@@ -3,4 +3,4 @@ project(SampleCpp)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(sample main.cpp screen.hpp traffic.hpp)
+add_executable(sample main.cpp utility.hpp utility.cpp Device.hpp Device.cpp Point.cpp Point.hpp)

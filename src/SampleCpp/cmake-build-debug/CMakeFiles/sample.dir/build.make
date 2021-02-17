@@ -80,17 +80,80 @@ CMakeFiles\sample.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\sample.dir\main.cpp.s /c C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\main.cpp
 <<
 
+CMakeFiles\sample.dir\utility.cpp.obj: CMakeFiles\sample.dir\flags.make
+CMakeFiles\sample.dir\utility.cpp.obj: ..\utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sample.dir/utility.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\sample.dir\utility.cpp.obj /FdCMakeFiles\sample.dir\ /FS -c C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\utility.cpp
+<<
+
+CMakeFiles\sample.dir\utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample.dir/utility.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\sample.dir\utility.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\utility.cpp
+<<
+
+CMakeFiles\sample.dir\utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample.dir/utility.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\sample.dir\utility.cpp.s /c C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\utility.cpp
+<<
+
+CMakeFiles\sample.dir\Device.cpp.obj: CMakeFiles\sample.dir\flags.make
+CMakeFiles\sample.dir\Device.cpp.obj: ..\Device.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sample.dir/Device.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\sample.dir\Device.cpp.obj /FdCMakeFiles\sample.dir\ /FS -c C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\Device.cpp
+<<
+
+CMakeFiles\sample.dir\Device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample.dir/Device.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\sample.dir\Device.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\Device.cpp
+<<
+
+CMakeFiles\sample.dir\Device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample.dir/Device.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\sample.dir\Device.cpp.s /c C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\Device.cpp
+<<
+
+CMakeFiles\sample.dir\Point.cpp.obj: CMakeFiles\sample.dir\flags.make
+CMakeFiles\sample.dir\Point.cpp.obj: ..\Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sample.dir/Point.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\sample.dir\Point.cpp.obj /FdCMakeFiles\sample.dir\ /FS -c C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\Point.cpp
+<<
+
+CMakeFiles\sample.dir\Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample.dir/Point.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\sample.dir\Point.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\Point.cpp
+<<
+
+CMakeFiles\sample.dir\Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample.dir/Point.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\sample.dir\Point.cpp.s /c C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\Point.cpp
+<<
+
 # Object files for target sample
 sample_OBJECTS = \
-"CMakeFiles\sample.dir\main.cpp.obj"
+"CMakeFiles\sample.dir\main.cpp.obj" \
+"CMakeFiles\sample.dir\utility.cpp.obj" \
+"CMakeFiles\sample.dir\Device.cpp.obj" \
+"CMakeFiles\sample.dir\Point.cpp.obj"
 
 # External object files for target sample
 sample_EXTERNAL_OBJECTS =
 
 sample.exe: CMakeFiles\sample.dir\main.cpp.obj
+sample.exe: CMakeFiles\sample.dir\utility.cpp.obj
+sample.exe: CMakeFiles\sample.dir\Device.cpp.obj
+sample.exe: CMakeFiles\sample.dir\Point.cpp.obj
 sample.exe: CMakeFiles\sample.dir\build.make
 sample.exe: CMakeFiles\sample.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sample.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sample.exe"
 	"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\sample.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2019\ENTERP~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\sample.dir\objects1.rsp @<<
  /out:sample.exe /implib:sample.lib /pdb:C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\cmake-build-debug\sample.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
