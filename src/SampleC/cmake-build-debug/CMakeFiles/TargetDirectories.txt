@@ -1,3 +1,0 @@
-C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleC/cmake-build-debug/CMakeFiles/SampleC.dir
-C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleC/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Karans/Dropbox/CSD/Kurslar/Rota-Cpp-Jan-2021/src/SampleC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

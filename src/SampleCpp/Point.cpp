@@ -1,8 +1,14 @@
+#include <cmath>
 #include "Point.hpp"
 
-void Point::display()
+double Point::distance(const Point &other)
 {
-    std::cout << "{x:" << x << ", y: " << y << "}\n";
+    return distance(other.x, other.y);
+}
+
+double Point::distance(int a, int b)
+{
+    return std::sqrt((x - a) * (x - a) + (y - b) * (y - b));
 }
 
 void Point::offset(int dx, int dy)
@@ -15,3 +21,9 @@ void Point::offset(int dxy)
 {
     offset(dxy, dxy);
 }
+
+void Point::display()
+{
+    std::cout << "{x:" << x << ", y: " << y << "}\n";
+}
+

@@ -7,9 +7,15 @@ class Point {
 public:
     int x, y;
 public:
-    void display();
+    Point(int a = 0, int b = 0) : x{ a }, y{ b } 
+    {}
+public:
+    double distance(const Point &other);
+    double distance(int x, int y);
     void offset(int dx, int dy);
     void offset(int dxy);
+
+    void display();
 };
 
 
