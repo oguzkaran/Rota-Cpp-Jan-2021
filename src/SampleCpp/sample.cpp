@@ -1,41 +1,45 @@
 /*----------------------------------------------------------------------------------------------------------------------
-    Sadece ctor'larda kullanýlabilen bir ilk deðer verme sentaksý vardýr
+    const nesnelerin kullanýmý
 ----------------------------------------------------------------------------------------------------------------------*/
 #include <iostream>
-#include "Point.hpp"
-
 
 class Sample {
 public:
     int a;
     int b;
 
-    Sample();
-    Sample(int x, int y);
-    ~Sample() {}
-    void display()
-    {
-        std::cout << "a = " << a << ", b = " << b << '\n';
-    }
+    void foo() const;
+    void bar();
 };
 
-Sample::Sample() : a{}, b{} //MIL (Member initializer list), ctor, ctor initializer list
+
+void Sample::foo() const
 {
+    std::cout << "a = " << a << ", b = " << b << '\n';
 }
 
-Sample::Sample(int x, int y) : a{ x }, b{ y }
+void Sample::bar()
 {
+    ++a;
+    ++b;
+}
+
+void display(const Sample& r)
+{
+    r.foo();
+}
+
+void display(const Sample *p)
+{
+    p->foo();
 }
 
 int main()
-{    
-    Point p1{ 100, 200 };
-    Point p2{ 300 };
-    Point p3{};
+{
+    Sample s{ 10, 20 };
 
-    p1.display();
-    p2.display();
-    p3.display();
+    display(s);
+    display(&s);    
 
     return 0;
 }

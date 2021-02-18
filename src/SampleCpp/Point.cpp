@@ -1,12 +1,12 @@
 #include <cmath>
 #include "Point.hpp"
 
-double Point::distance(const Point &other)
+double Point::distance(const Point &other) const
 {
     return distance(other.x, other.y);
 }
 
-double Point::distance(int a, int b)
+double Point::distance(int a, int b) const
 {
     return std::sqrt((x - a) * (x - a) + (y - b) * (y - b));
 }
@@ -22,7 +22,7 @@ void Point::offset(int dxy)
     offset(dxy, dxy);
 }
 
-void Point::display()
+void Point::display() const
 {
     std::cout << "{x:" << x << ", y: " << y << "}\n";
 }
