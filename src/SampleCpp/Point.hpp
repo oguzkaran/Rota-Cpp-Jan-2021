@@ -14,7 +14,7 @@ public:
     double distance(int x, int y) const;
     void offset(int dx, int dy);
     void offset(int dxy);
-    void display() const;
+    void display() const {std::cout << "{x:" << x << ", y: " << y << "}\n";}
     //...
 };
 

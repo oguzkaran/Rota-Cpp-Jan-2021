@@ -140,12 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Device.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="IntValue.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="sample.cpp" />
     <ClCompile Include="utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Device.hpp" />
+    <ClInclude Include="File.hpp" />
+    <ClInclude Include="IntValue.hpp" />
     <ClInclude Include="Point.hpp" />
     <ClInclude Include="utility.hpp" />
   </ItemGroup>

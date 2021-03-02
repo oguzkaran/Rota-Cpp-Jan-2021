@@ -22,8 +22,5 @@ void Point::offset(int dxy)
     offset(dxy, dxy);
 }
 
-void Point::display() const
-{
-    std::cout << "{x:" << x << ", y: " << y << "}\n";
-}
+
 
