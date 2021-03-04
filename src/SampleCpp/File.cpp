@@ -1,6 +1,16 @@
 #include "File.hpp"
 
 #include <iostream>
+#include <cstdlib>
+
+File::File() : m_f{ nullptr }, m_path{ '\0' }
+{}
+
+File::File(const char* name) : File{}
+{
+	std::strcpy(m_path, name);
+}
+
 
 File::File(File&&r) : m_f{r.m_f}
 {
@@ -27,6 +37,11 @@ File::~File()
 bool File::open(const char* name, const char* mode)
 {
 	return (m_f = std::fopen(name, mode)) != nullptr;
+}
+
+bool File::open(const char* mode)
+{
+	return open(m_path, mode);
 }
 
 void File::seekSet()

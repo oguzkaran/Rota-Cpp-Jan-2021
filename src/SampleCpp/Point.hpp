@@ -7,8 +7,8 @@ class Point {
 public:
     int x, y;
 public:
-    Point(int a = 0, int b = 0) : x{ a }, y{ b } 
-    {}
+    Point(int x = 0, int y = 0) : x{ x }, y{ y } 
+    {}    
 public:
     double distance(const Point &other) const;
     double distance(int x, int y) const;
