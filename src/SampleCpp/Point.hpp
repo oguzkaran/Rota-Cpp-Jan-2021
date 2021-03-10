@@ -4,6 +4,8 @@
 #include <iostream>
 
 class Point {
+    friend std::ostream& operator<<(std::ostream& os, const Point& p);
+    friend std::istream& operator>>(std::istream& os, Point& p);
 public:
     int x, y;
 public:

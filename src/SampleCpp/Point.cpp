@@ -1,6 +1,16 @@
 #include <cmath>
 #include "Point.hpp"
 
+std::ostream& operator<<(std::ostream& os, const Point& p)
+{
+    return os << "{x : " << p.x << ", y : " << p.y << "}";
+}
+
+std::istream& operator>>(std::istream& is, Point& p)
+{
+    return is >> p.x >> p.y;
+}
+
 double Point::distance(const Point &other) const
 {
     return distance(other.x, other.y);

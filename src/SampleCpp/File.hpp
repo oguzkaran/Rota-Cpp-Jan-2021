@@ -9,7 +9,7 @@ private:
 	char m_path[1024];
 public:
 	File();	
-	File(const char* name);	
+	explicit File(const char* name);
 	File(const File&) = delete;
 	File& operator =(const File&r) = delete;
 	File(File&& r);

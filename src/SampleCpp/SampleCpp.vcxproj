@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Complex.cpp" />
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="File.cpp" />
     <ClCompile Include="IntValue.cpp" />
@@ -149,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.hpp" />
+    <ClInclude Include="Complex.hpp" />
     <ClInclude Include="Device.hpp" />
     <ClInclude Include="File.hpp" />
     <ClInclude Include="IntValue.hpp" />

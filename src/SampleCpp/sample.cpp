@@ -1,41 +1,17 @@
 ﻿/*----------------------------------------------------------------------------------------------------------------------
-    friend global fonksiyonların bir kullanımı. Aşağıdaki örnekte Sample sınıfına hem bir output' a yazma yapmak ve 
-    bit input'tan okuma yapmak anlamında yetenek kazandırılmıştır. Detaylar ileride ele alınacaktır
+    Complex sınıfı ve test kodu
 ----------------------------------------------------------------------------------------------------------------------*/
 #include <iostream>
-
-class Sample {
-    friend std::ostream& operator <<(std::ostream& os, const Sample& s);
-    friend std::istream& operator>>(std::istream& is, Sample& s);
-private:
-    int m_a;
-    double m_b;
-public:
-    Sample(int a = 0, double b = 0) : m_a{ a }, m_b{b}
-    {}
-    //...
-};
-
-std::ostream& operator <<(std::ostream& os, const Sample& s)
-{
-    return os << s.m_a << ", " << s.m_b;
-}
-
-std::istream& operator>>(std::istream& is, Sample& s)
-{
-    return is >> s.m_a >> s.m_b;
-}
+#include "Complex.hpp"
 
 int main()
 {
-    Sample s{};
+    Complex z1{ 3, 4 }, z2{ 9, -8 };
+    Complex z;
 
-    std::cout << "Degerleri giriniz:";
-    std::cin >> s;
+    z = z1 - z2;
 
-    operator <<(std::cout, s) << '\n';
+    std::cout << z << '\n';
 
-    std::cout << s << '\n';
-        
     return 0;
 }

@@ -8,6 +8,5 @@ public:
 	IntValue& add(int val);
 	IntValue& subtract(int val);
 	IntValue& multiply(int val);
-
 };
 
