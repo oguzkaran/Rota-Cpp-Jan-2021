@@ -7,6 +7,8 @@
 class Complex {
 	friend std::istream& operator>>(std::istream& is, Complex& z);
 	friend std::ostream& operator<<(std::ostream& os, const Complex& z);
+	friend Complex operator+(double val, const Complex& z);
+	friend Complex operator-(double val, const Complex& z);
 private:
 	double m_real, m_imag;
 public:
@@ -21,9 +23,24 @@ public:
 public:
 	Complex operator+(const Complex& other) const;	
 	Complex operator+(double val) const;
-
 	Complex operator-(const Complex& other) const;
 	Complex operator-(double val) const;
+	Complex& operator++();
+	Complex operator++(int);
+	Complex& operator--();
+	Complex operator--(int);
+	Complex operator-() const;
+	Complex operator+() const;
+	Complex& operator+=(const Complex& other);
+
+	bool operator ==(const Complex& other) const;
+	bool operator !=(const Complex& other) const;
+
+	void operator ()() const;
+	Complex operator()(double val) const;
+	Complex& operator()(double real, double imag);	
+
+	explicit operator double() const;
 };
 
 #endif //COMPLEX_HPP_

@@ -1,17 +1,12 @@
 ﻿/*----------------------------------------------------------------------------------------------------------------------
-    Complex sınıfı ve test kodu
+    Yukarıdaki örnekte :: operatörü ile çağırma yapılarak problem çözülebilir
 ----------------------------------------------------------------------------------------------------------------------*/
 #include <iostream>
-#include "Complex.hpp"
 
 int main()
-{
-    Complex z1{ 3, 4 }, z2{ 9, -8 };
-    Complex z;
-
-    z = z1 - z2;
-
-    std::cout << z << '\n';
+{    
+    using namespace std;
 
     return 0;
 }
+

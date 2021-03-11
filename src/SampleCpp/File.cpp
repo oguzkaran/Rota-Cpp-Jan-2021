@@ -3,14 +3,16 @@
 #include <iostream>
 #include <cstdlib>
 
+using namespace com::rota::util::io;
+using namespace std;
+
 File::File() : m_f{ nullptr }, m_path{ '\0' }
 {}
 
 File::File(const char* name) : File{}
 {
-	std::strcpy(m_path, name);
+	strcpy(m_path, name);
 }
-
 
 File::File(File&&r) : m_f{r.m_f}
 {
@@ -31,12 +33,12 @@ File& File::operator =(File&& r)
 File::~File()
 {
 	if (m_f != nullptr)
-		std::fclose(m_f);
+		fclose(m_f);
 }
 
 bool File::open(const char* name, const char* mode)
 {
-	return (m_f = std::fopen(name, mode)) != nullptr;
+	return (m_f = fopen(name, mode)) != nullptr;
 }
 
 bool File::open(const char* mode)
@@ -56,7 +58,7 @@ void File::seekEnd()
 
 void File::seek(int whence, long offset)
 {
-	std::fseek(m_f, whence, offset);
+	fseek(m_f, whence, offset);
 }
 
 void File::close()
@@ -64,7 +66,7 @@ void File::close()
 	if (m_f == nullptr)
 		return;
 
-	std::fclose(m_f);
+	fclose(m_f);
 	m_f = nullptr;
 }
 
@@ -72,13 +74,13 @@ void File::type() const
 {
 	int ch;
 
-	while ((ch = std::fgetc(m_f)) != EOF)
-		std::cout << static_cast<char>(ch);
+	while ((ch = fgetc(m_f)) != EOF)
+		cout << static_cast<char>(ch);
 
-	std::cout << '\n';
+	cout << '\n';
 }
 
 void File::write(int ch) 
 {
-	std::fputc(ch, m_f);
+	fputc(ch, m_f);
 }
