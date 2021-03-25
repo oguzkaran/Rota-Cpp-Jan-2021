@@ -1,2 +1,2 @@
 ﻿  sample.cpp
-  SampleCpp.vcxproj -> C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\Debug\SampleCpp.exe
+C:\Users\Karans\Dropbox\CSD\Kurslar\Rota-Cpp-Jan-2021\src\SampleCpp\sample.cpp(36,24): warning C4566: character represented by universal-character-name '\u011F' cannot be represented in the current code page (1252)

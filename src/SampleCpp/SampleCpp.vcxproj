@@ -144,6 +144,7 @@
     <ClCompile Include="Complex.cpp" />
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="File.cpp" />
+    <ClCompile Include="fraction.cpp" />
     <ClCompile Include="IntValue.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="sample.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Complex.hpp" />
     <ClInclude Include="Device.hpp" />
     <ClInclude Include="File.hpp" />
+    <ClInclude Include="fraction.hpp" />
     <ClInclude Include="IntValue.hpp" />
     <ClInclude Include="Point.hpp" />
     <ClInclude Include="utility.hpp" />

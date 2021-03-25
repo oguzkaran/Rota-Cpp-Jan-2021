@@ -10,9 +10,7 @@ namespace com::rota::util::io {
 		char m_path[1024];
 	public:
 		File();
-		explicit File(const char* name);
-		File(const File&) = delete;
-		File& operator =(const File& r) = delete;
+		explicit File(const char* name);		
 		File(File&& r);
 		File& operator =(File&& r);
 		~File();
